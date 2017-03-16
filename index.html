@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet" />
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <h1>MyUnicorn</h1>
+        <div class="liens">
+            <div class="menu">
+                <a href="#leprincipe">LE PRINCIPE</a>
+            </div>
+            <div class="menu">
+                <a href="#noslicornes">NOS LICORNES</a>
+            </div>
+            <div class="menu">
+                <a href="#noustrouver">NOUS TROUVER</a>
+            </div>
+
+            <!--Les liens du menu sont des ancres vers les trois blocs de contenu : Le principe, Nos licornes
+et Nous trouver. -->
+
+        </div>
+
+    </nav>
+    <header>
+        <h1>Un jour, une licorne</h1>
+
+    </header>
+    <div id="arriereplan">
+        <div id="contenu">
+            <div id="contenu1">
+                <h2 id="leprincipe"><i class="icon-star-empty"></i></i> le principe</h2><br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p><br />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            </div>
+
+            <div id="contenu2">
+                <h2 id="noslicornes"><i class="icon-star-empty"></i></i> Nos licornes</h2><br />
+                <figure>
+                    <img src="img/unicorns/photo1.jpg" alt="licorne1" />
+                    <figcaption>Lulu Confetty</figcaption>
+                    <div class="clear"></div>
+                </figure><!--Les images sont entourées de balises <figure> et les noms des licornes se trouvent dans
+des balises <figcaption>. -->
+                <figure>
+                    <img src="img/unicorns/photo2.jpg" alt="licorne2" />
+                    <figcaption>Lapillon Magik</figcaption>
+                    <div class="clear"></div>
+                </figure>
+                <figure>
+                    <img src="img/unicorns/photo3.jpg" alt="licorne3" />
+                    <figcaption>El Ninjacorn</figcaption>
+                    <div class="clear"></div>
+                </figure>
+                <figure>
+                    <img src="img/unicorns/photo4.jpg" alt="licorne4" />
+                    <figcaption>Sweety Candy</figcaption>
+                    <div class="clear"></div>
+                </figure>
+
+            </div>
+
+            <div id="contenu3">
+                <h2 id="noustrouver"><i class="icon-star-empty"></i> Nous trouver</h2><br />
+                <div id="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.187468008761!2d2.3541141160282266!3d48.85463547928712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671fd10fa77a9%3A0xb2bbd365849898f2!2sWebforce3!5e0!3m2!1sfr!2sfr!4v1489661735586" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe><!-- La carte est une carte Google Maps interactive, centrée sur la boutique.
+-->
+                </div>
+                <div id="coordonnees">
+                    <h3>Notre élévage de licorne est situé au :</h3><br />
+                    <p>18 rue Geoffroy L'Asnier</p>
+                    <p>75004 Paris</p>
+                    <p>01.23.45.67.89</p><br /><br/>
+
+
+                    <h3>Newsletter</h3><br />
+                    <p>Abonnez-vous simplement à notre newsletter mensuelle !</p><br />
+                    <form action="newsletter.php" method="post"><!--Le formulaire d'inscription à la newsletter renvoie sur la page "newsletter.php" -->
+                        <label for="adresse"></label>
+                        <input type="email" name="adresse" placeholder="votre@email.fr" required rows="3" cols="24"></input><br />
+                        <input type="submit" name="inscription" value="Valider" id="inscription">
+                    </form>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer></footer>
+</body>
+</html>
